@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porfolio</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+    <div class="menuContainer sourceCodePro">    
+        <div id="pageFeaturesContainer">
+           <a href="#landingPage" class="menuItem"><button id="homeFeature sourceCodePro" class="menuItem sourceCodePro">HOME</button></a>
+            <a href="#profilePresentation" class="menuItem"><button id="aboutFeature" class="menuItem sourceCodePro">ABOUT</button></a>
+            <a href="#services" class="menuItem"><button id="servicesFeature" class="menuItem sourceCodePro">SERVICES</button></a>
+            <a href="#work" class="menuItem"><button id="resumeFeature sourceCodePro" class="menuItem sourceCodePro">WORK</button></a>
+        </div>
+        <button id="menuMobile">
+            <img src="./media/menuIcon.png" alt="" class="menuMobileImg">
+        </button> 
+    </div>
+    <div class="landingPage mainSection" id="landingPage">
+        <div class="landingTextContainer">
+            <h2 class="shadowsInto">Hi, this is </h2>
+            <h1 class="name">Juan David Caballero</h1>
+            <h2 class="shadowsInto">Web Developer and Foreign Languages Teacher</h2>
+            <div class="socialMediaContainer">
+               <a href="https://github.com/juandacf"  target="_blank"> <img src="./media/socialMediaIcons/github.png" alt="" class="socialMediaIcon" id="githubIcon"></a>
+               <a href="https://www.instagram.com/jdcabfu"  target="_blank"><img src="./media/socialMediaIcons/instagram.png" alt="" class="socialMediaIcon"> </a>
+               <a href="https://www.linkedin.com/in/juan-david-caballero-fuentes-a89b6125b/"  target="_blank"><img src="./media/socialMediaIcons/linkedin.png" alt="" class="socialMediaIcon"></a>
+            </div>
+        </div>
+    </div>
+    <div class="profilePresentation mainSection" id="profilePresentation">
+        <div class="profileContainer">
+            <div class="profilePicture">
+                <img src="./media/profilePicture.jpeg" alt="" id="actualPicture">
+            </div>
+            <div class="profileDescription">
+                <h1 class="sourceCodePro mainTitle bold">Hello, there!</h1>
+                <p class="sourceCodePro">
+                    My name is Juan David Caballero. I am a  Colombian foreign languages teacher, translator and thriving software developer. I am an enthusiastic,self-motivated and responsible person. I am an experienced team worker, adaptable to all challenging situations.
+                </p>
+                <p class="bold sourceCodePro">Name: <span class="sourceCodePro profileItemstext unbold"> Juan David Caballero Fuentes</span></p>
+                <p class="bold sourceCodePro">Country: <span class="sourceCodePro profileItemstext unbold"> Colombia</span></p>
+                <p class="bold sourceCodePro">e-mail: <span class="sourceCodePro profileItemstext unbold"> juandacf@gmail.com</span></p>
+                <p class="bold sourceCodePro">Phone: <span class="sourceCodePro profileItemstext unbold"> +57 3008307198</span></p>
+                <div class="cvButtonContainer">
+                    <a href="./files/CV-English.pdf"  download="CV-English.pdf"> <button class="downloadButton sourceCodePro bold"> Download Resume English </button> </a>
+                    <a href="./files/CV-Spanish.pdf" class="downloadButton" download="CV-Spanish.pdf"> <button class="downloadButton sourceCodePro bold"> Download Resume Spanish </button> </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="services mainSection" id="services">
+        <div class="servicesContainer">
+            <div class="servicesTitle">
+                <h1 class="servicesH1 mainTitle bold sourceCodePro ">What I do..</h1>
+            </div>
+            <div class="boxescontainer sourceCodePro">
+                <div class="servicesBox">
+                    <img src="./media/servicesIcons/coding.png" alt="" class="serviceIcon">
+                    <h3 class="serviceItemTitle">Software Development</h3>
+                    <p>I have experience with Python, JavaScript, HTML5 and CSS.</p>
+                </div>
+                <div class="servicesBox">
+                    <img src="./media/servicesIcons/translation.png" alt="" class="serviceIcon">
+                    <h3 class="serviceItemTitle">Translation</h3>
+                    <p>I am a skilled freelance translator experienced in medical, technical and literary translation.</p>
+                </div>
+                <div class="servicesBox">
+                    <img src="./media/servicesIcons/teachings.png" alt="" class="serviceIcon">
+                    <h3 class="serviceItemTitle">Foreign Languages Teaching</h3>
+                    <p>
+                        I have experience teaching English as a foreign language.
+                    </p>
+                </div>
+                <div class="servicesBox">
+                    <img src="./media/servicesIcons/customer-service.png" alt="" class="serviceIcon">
+                    <h3 class="serviceItemTitle">Customer Service</h3>
+                    <p>
+                        I am a experienced customer service agent.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="work" class="mainSection">
+
+    </div>
+
+
+    <script src="./JS/app.js"></script>
+</body>
+</html>
