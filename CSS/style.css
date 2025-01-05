@@ -249,6 +249,48 @@ html, body {
         display:none;
         z-index: 4;
     }
+    #work{
+        display:flex;
+        justify-content:center;
+        align-items: center;
+    }
+    .workContainer{
+        width:80vw;
+        height:80vh;
+    }
+    .workTitleCaption{
+        font-size:6vh;
+        color: #3B3B3B;
+        text-align: center;
+    }
+
+    .workContentContainer{
+        display:flex;
+        justify-content:center;
+        align-items: center;
+        width:80vw;
+        height:80vh;
+    }
+    .proyectContainer{
+        height:80%;
+        width:80vw;
+    }
+    .proyectRow{
+        height:50%;
+        display:flex;
+    }
+    .proyectIndividual{
+        width:50%;
+        height:100%;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+    .proyect{
+        height:90%;
+        width:60%;
+    }
+    
 }
 
 
