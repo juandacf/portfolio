@@ -444,5 +444,33 @@ html, body {
     .unbold{
         font-weight: lighter;
     }
+    #work{
+        text-align: center;
+        width:100vw;
+    }
+    .proyectRow{
+        padding:0;
+        display:flex;
+        flex-direction:column;
+        align-items: center;
+    }
+    .proyectIndividual{
+        width:80vw;
+        display:flex;
+        justify-content: center;
+        margin-top:7vw;
+    }
 
+    .worksIcon{
+        width:20vw;
+    }
+    .worksTitle{
+        font-size:4vw;
+    }
+    .workTitle{
+        width:100%;
+    }
+    .proyect{
+        box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+    }
 }
