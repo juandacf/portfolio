@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
 
-
+a{
+    text-decoration: none;
+    color:black;
+}
 
 html, body {
     margin:0;
@@ -288,9 +291,25 @@ html, body {
     }
     .proyect{
         height:90%;
-        width:60%;
+        width:70%;
+        display:flex;
+        flex-direction: column;
+        text-align: center;
+        box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
     }
-    
+    .proyect:hover{
+        background-color:#F0F0F0;
+        height:95%;
+        width:75%;
+    }
+    .worksIcon{
+        height:8vh;
+        
+    }
+    .workImageContainer{
+        display:flex;
+        justify-content: center;
+    }
 }
 
 
